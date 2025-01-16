@@ -71,12 +71,3 @@ func (s *SlackProfile) UpdateSlackProfile(Name, Username, Designation, ContactNu
 	s.ImageName = ImageName
 	s.ImagePath = ImagePath
 }
-
-// func main() {
-// 	slackProfile := NewSlackProfile("John Doe", "johndoe", "Software Engineer", "1234567890", "john.png", "/images/john.png")
-// 	fmt.Println("New Slack Profile:", slackProfile)
-
-// 	slackProfile.UpdateSlackProfile("Jane Doe", "janedoe", "Software Engineer", "9876543210", "jane.png", "/images/jane.png")
-// 	fmt.Println("Updated Slack Profile:", slackProfile)
-
-// }
